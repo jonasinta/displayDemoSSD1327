@@ -1,12 +1,15 @@
-ESP-IDF template app
-====================
+Display demo ssd1327
+Thanks Koloban
+thanks  Olikraus
 
-This is a template application to be used with `Espressif IoT Development Framework`_ (ESP-IDF). 
+oled ssd1327 going with esp-idf
+and ultrasonic distance device from bananarobotics.com great device outputs uart data
 
-Please check ESP-IDF docs for getting started instructions.
+freertos queue sending structure of distance and temperature to display file/app 3 times a second
 
-Code in this repository is Copyright (C) 2016 Espressif Systems, licensed under the Apache License 2.0 as described in the file LICENSE.
-
-.. _Espressif IoT Development Framework: https://github.com/espressif/esp-idf
+3 apps running;
+blink the blue led on the board 500mS,
+get the distance from device 33mS,
+display app.
 
 
